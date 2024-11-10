@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EcommerceTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ProductSearchToCheckoutTest(failed)">
+    <classes>
+      <class name="mumzworld.tests.ProductSearchToCheckoutTest">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="verify_ProductSearchToCheckoutTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- mumzworld.tests.ProductSearchToCheckoutTest -->
+    </classes>
+  </test> <!-- ProductSearchToCheckoutTest(failed) -->
+</suite> <!-- Failed suite [EcommerceTestSuite] -->
